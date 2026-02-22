@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoops & Smiles - Ice Cream Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Scoops & Smiles</h1>
+                <p>Handcrafted Happiness Since 2010</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2 id="aa">Cool Treats for Hot Days</h2>
+            <p>Discover our artisan ice creams made with locally-sourced ingredients</p>
+            <a href="menu.html" class="btn">View Full Menu</a>
+        </div>
+    </section>
+
+    <section id="flavors" class="flavors">
+        <div class="container">
+            <h2>Featured Flavors</h2>
+            <p class="subheading">Try our most popular flavors or <a href="menu.html">see full menu</a></p>
+            <div class="flavor-grid" id="flavorGrid">
+                <!-- Featured flavors loaded by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>Our Story</h2>
+                <p>Scoops & Smiles began in 2010 when two childhood friends decided to turn their passion for ice cream into a business. What started as a small stand at the local farmer's market has grown into the beloved shop you see today.</p>
+                <p>We still make all our ice cream in small batches using milk from local dairy farms and seasonal ingredients from nearby growers.</p>
+                <div class="stats">
+                    <div class="stat">
+                        <span class="number" id="years">0</span>
+                        <span>Years in Business</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number" id="flavorsCount">0</span>
+                        <span>Unique Flavors</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number" id="happyCustomers">0</span>
+                        <span>Happy Customers</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1560008581-09826d1de69e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Ice cream shop interior">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Visit Us or Get in Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Location</h3>
+                    <p>12-WestComplex L&T circle<br>Vadodara-390025</p>
+                    <h3>Hours</h3>
+                    <p>Monday-Friday: 12pm - 11pm<br>
+                    Saturday-Sunday: 11am - 12pm</p>
+                    <h3>Contact</h3>
+                    <p>Phone: 8866454131<br>
+                    Email: hello@scoopsandsmiles.com</p>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form id="messageForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Scoops & Smiles</h3>
+                    <p>Bringing joy one scoop at a time since 2010.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a id="aa" href="index.html">Home</a></li>
+                        <li><a id="aa" href="menu.html">Menu</a></li>
+                        <li><a id="aa" href="#about">About</a></li>
+                        <li><a id="aa" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Scoops & Smiles. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
